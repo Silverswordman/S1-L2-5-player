@@ -5,12 +5,13 @@ public interface PlayAndVolume {
     //Attributi
 
     int durata = 0;
-    char[] volumeValue = new char[5];
 
+    char[] volumeValue = {'!', '!', '!', '!', '!'};
 
     //metodi
 
     public default void alzaIlVolume(char[] volumeValue) {
+
 
     }
 
@@ -18,7 +19,7 @@ public interface PlayAndVolume {
 
     }
 
-    public default void play(int durata) {
+    public default void play() {
 
     }
 

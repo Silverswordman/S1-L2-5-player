@@ -1,10 +1,6 @@
 
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
-c
-3src/elemento_multimediale/ElementoMultimediale.java,6\f\6f71dd365c8744549d4b3eea0a7130841226f0b4
-W
-'src/entities/elemento_multimediale.java,6\6\66627098a0a7e34131ec664db439f3518360aaea
 G
 src/entities/audio.java,7\b\7bddc446fdba5c938ac566d60adf966e51bf1e24
 G
@@ -19,8 +15,6 @@ J
 src/entities/Immagine.java,2\4\24747ce815ada44f43efca895f606dfef40d8329
 G
 src/entities/Video.java,5\8\58c82a7634d556b7ae53805096f53caccc19a2cc
-H
-src/interfaces/Show.java,5\c\5cdc5668cdab0eded61cb662f758a45046fc5cc9
 Q
 !src/interfaces/PlayAndVolume.java,e\a\ea3e3b4399115dca4ddcc98d90489175fbf54d4c
 O

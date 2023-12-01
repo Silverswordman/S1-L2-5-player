@@ -6,38 +6,72 @@ import interfaces.PlayAndVolume;
 public class Video extends ElementoMultimedia implements Luminosità, PlayAndVolume {
     //attributi
 
+    private int durata;
+    private char[] volumeValue;
+    private char[] luminositaValue;
 
-    // costruttori
+    // Costruttori
+    public Video(int durata, char[] volumeValue, char[] luminositaValue) {
+        this.durata = durata;
+        this.volumeValue = PlayAndVolume.volumeValue;
+        this.luminositaValue = Luminosità.luminositàValue;
+    }
 
-    // metodi
+
+    // Metodi
 
     @Override
-    public void alzaIlVolume(char[] volumeValue) {
+    public void alzaIlVolume(char volumeValue[]) {
 
+        if (volumeValue[volumeValue.length - 1] == '!') {
+            System.out.println("Sei già al massimo del volume");
+        } else {
+            for (int i = 0; i < volumeValue.length; i++) {
+                volumeValue[i] = '!';
+            }
+        }
     }
 
     @Override
-    public void abbassaIlVolume(char[] volumeValue) {
+    public void abbassaIlVolume(char volumeValue[]) {
 
+        if (volumeValue[0] != '!') {
+            System.out.println("Sei già al minimo del volume");
+        } else {
+            for (int i = volumeValue.length - 1; i >= 0; i--) {
+                volumeValue[i] = '!';
+            }
+        }
     }
 
     @Override
-    public void alzaLuminosità(char[] luminositaValue) {
+    public void alzaLuminosita(char[] luminositaValue) {
+
+        if (luminositaValue[luminositaValue.length - 1] == '*') {
+            System.out.println("Sei già al massimo della luminosità");
+        } else {
+            for (int i = 0; i < luminositaValue.length; i++) {
+                luminositaValue[i] = '*';
+            }
+        }
     }
 
     @Override
     public void abbassaLuminosità(char[] luminositaValue) {
 
+        if (luminositaValue[0] != '*') {
+            System.out.println("Sei già al minimo della luminosità");
+        } else {
+            for (int i = luminositaValue.length - 1; i >= 0; i--) {
+                luminositaValue[i] = '*';
+            }
+        }
     }
 
     @Override
-    public void play(int durata) {
-
+    public void play() {
+        System.out.println("Play the video");
     }
-
 }
-
-
-
 
 
