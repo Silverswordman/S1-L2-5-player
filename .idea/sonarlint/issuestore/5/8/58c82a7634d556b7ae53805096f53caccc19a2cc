@@ -1,0 +1,25 @@
+
+O
+java:S1199I"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ü¨Ä¬Â1
+Z
+java:S2387"8"titolo" is the name of a field in "ElementoMultimedia".(çÂ´®üÿÿÿÿ8‹©Ä¬Â1
+d
+java:S1172"GRemove these unused method parameters "volumeValue", "luminositaValue".(½´ªÇ8’©Ä¬Â1
+L
+java:S1197"*Move the array designators [] to the type.(ÈàšÂşÿÿÿÿ8¤¤˜¬Â1
+L	java:S106"+Replace this use of System.out by a logger.(áÄ„™úÿÿÿÿ8§¤˜¬Â1
+G
+java:S1197$"*Move the array designators [] to the type.(£«¼ï8©¤˜¬Â1
+L	java:S106'"+Replace this use of System.out by a logger.(¨”Ú»ÿÿÿÿÿ8ª¤˜¬Â1
+L	java:S1063"+Replace this use of System.out by a logger.(€Š™Àùÿÿÿÿ8¬¤˜¬Â1
+L	java:S106?"+Replace this use of System.out by a logger.(í¸¬İşÿÿÿÿ8®¤˜¬Â1
+L	java:S106J"+Replace this use of System.out by a logger.(é»€¾ûÿÿÿÿ8©Ä¬Â1
+L
+java:S1068"*Remove this unused "titolo" private field.(çÂ´®üÿÿÿÿ8¸•™¬Â1
+F
+java:S1068	"*Remove this unused "durata" private field.(ïºQ8²¤˜¬Â1
+L
+java:S1068
+"/Remove this unused "volumeValue" private field.( ¬¬Œ8Ÿ©Ä¬Â1
+U
+java:S1068"3Remove this unused "luminositaValue" private field.(ÑÌ¿ìùÿÿÿÿ8²¤˜¬Â1

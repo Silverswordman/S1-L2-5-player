@@ -6,7 +6,7 @@ public class Audio extends ElementoMultimedia implements PlayAndVolume {
 
 
     //attributi
-    private String title;
+
     private int durata;
     private char[] volumeValue;
 
@@ -46,6 +46,12 @@ public class Audio extends ElementoMultimedia implements PlayAndVolume {
     public void play() {
         System.out.println("Play the audio");
     }
+
+    @Override
+    public String toString() {
+        return "Titolo: " + getTitolo() + ", Volume dell'Audio: " + volumeValue + ", Durata dell'Audio: " + durata;
+    }
+
 
 }
 

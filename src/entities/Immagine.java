@@ -5,6 +5,7 @@ import interfaces.Luminosità;
 public class Immagine extends ElementoMultimedia implements Luminosità {
 
     //attributi
+    private String titolo;
     private char[] luminositàValue;
 
 
@@ -44,7 +45,12 @@ public class Immagine extends ElementoMultimedia implements Luminosità {
         System.out.println(" Immagine stampata");
     }
 
+    @Override
+    public String toString() {
+        return "Titolo: " + getTitolo() + ", Luminosità dell'immagine: " + luminositàValue;
+    }
 }
+
 
 
 

@@ -5,7 +5,7 @@ import interfaces.PlayAndVolume;
 
 public class Video extends ElementoMultimedia implements Luminosità, PlayAndVolume {
     //attributi
-
+    private char titolo;
     private int durata;
     private char[] volumeValue;
     private char[] luminositaValue;
@@ -70,7 +70,9 @@ public class Video extends ElementoMultimedia implements Luminosità, PlayAndVol
 
     @Override
     public void play() {
-        System.out.println("Play the video");
+        {
+            System.out.println("E' partito il video " + getTitolo());
+        }
     }
 }
 

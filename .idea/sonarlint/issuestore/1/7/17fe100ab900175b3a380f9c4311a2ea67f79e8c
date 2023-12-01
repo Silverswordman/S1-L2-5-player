@@ -1,0 +1,10 @@
+
+T
+java:S1172"2Remove this unused method parameter "volumeValue".(ìªåúÿÿÿÿ8ä¿İ­Â1
+L
+java:S1197"*Move the array designators [] to the type.(ÈàšÂşÿÿÿÿ8ê¸ÿ«Â1
+L	java:S106"+Replace this use of System.out by a logger.(áÄ„™úÿÿÿÿ8Í½«Â1
+G
+java:S1197""*Move the array designators [] to the type.(£«¼ï8í¸ÿ«Â1
+L	java:S106%"+Replace this use of System.out by a logger.(¨”Ú»ÿÿÿÿÿ8ï¸ÿ«Â1
+L	java:S106/"+Replace this use of System.out by a logger.(É³ôÅúÿÿÿÿ8ğ¸ÿ«Â1

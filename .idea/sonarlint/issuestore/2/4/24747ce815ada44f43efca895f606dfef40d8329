@@ -1,0 +1,12 @@
+
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñşü×8èÅ½¬Â1
+w	java:S116	"[Rename this field "luminositÃ Value" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Çù 8ùÅ½¬Â1
+Z
+java:S2387"8"titolo" is the name of a field in "ElementoMultimedia".(¥‚­ùÿÿÿÿ8ùÅ½¬Â1
+S
+java:S1172"6Remove this unused method parameter "luminositaValue".(Ÿï¿Ş8ıÅ½¬Â1
+L	java:S106"+Replace this use of System.out by a logger.(€Š™Àùÿÿÿÿ8Æ½¬Â1
+L	java:S106$"+Replace this use of System.out by a logger.(í¸¬İşÿÿÿÿ8ƒÆ½¬Â1
+L	java:S106-"+Replace this use of System.out by a logger.(¿ß‘”ıÿÿÿÿ8„Æ½¬Â1
+L
+java:S1068"*Remove this unused "titolo" private field.(¥‚­ùÿÿÿÿ8‡Æ½¬Â1
