@@ -1,3 +1,31 @@
 
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
+c
+3src/elemento_multimediale/ElementoMultimediale.java,6\f\6f71dd365c8744549d4b3eea0a7130841226f0b4
+W
+'src/entities/elemento_multimediale.java,6\6\66627098a0a7e34131ec664db439f3518360aaea
+G
+src/entities/audio.java,7\b\7bddc446fdba5c938ac566d60adf966e51bf1e24
+G
+src/entities/video.java,5\9\599b491b4e33e39a905c6a337e571bd33ac6d7f0
+J
+src/entities/immagine.java,8\7\874db6de6a4b25d077ef6ebed0f9d682f8385d03
+G
+src/entities/Audio.java,1\7\17fe100ab900175b3a380f9c4311a2ea67f79e8c
+T
+$src/entities/ElementoMultimedia.java,5\f\5f437b22283e1e992e1ca97c02a1f26a73666456
+J
+src/entities/Immagine.java,2\4\24747ce815ada44f43efca895f606dfef40d8329
+G
+src/entities/Video.java,5\8\58c82a7634d556b7ae53805096f53caccc19a2cc
+H
+src/interfaces/Show.java,5\c\5cdc5668cdab0eded61cb662f758a45046fc5cc9
+Q
+!src/interfaces/PlayAndVolume.java,e\a\ea3e3b4399115dca4ddcc98d90489175fbf54d4c
+O
+src/interfaces/Luminosità.java,b\d\bd0794946b14d0c687bc2647a0d2621adcaa6a00
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
