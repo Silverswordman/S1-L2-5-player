@@ -7,10 +7,12 @@ public interface Luminosità {
 
     //Metodi
 
+    // metodo della luminosità
 
     public default void alzaLuminosità(char[] luminositàValue) {
 
     }
+
 
     void alzaLuminosita(char[] luminositaValue);
 

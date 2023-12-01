@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         ElementoMultimedia[] elementi = new ElementoMultimedia[5];
 
-
+// ciclo per creare un elemento nel array elementi
         for (int i = 0; i < 5; i++) {
             System.out.println("Cosa vuoi creare un video , un' immagine o un audio?");
             String tipo = scanner.nextLine().toLowerCase();
@@ -20,14 +20,19 @@ public class Main {
             String titolo = scanner.nextLine();
 
             switch (tipo.toLowerCase()) {
+
+                // CASO AUDIO
                 case "audio" -> {
                     System.out.println("Inserisci il volume da uno a 5 ! :");
                     String volumeInput = scanner.nextLine();
+
+                    // condizione dei! riportata anche in video e uguale con * in luminosità
                     if (volumeInput.length() > 5) {
                         System.out.println("Il volume deve avere al massimo 5 punti esclamativi.");
                         i--;
                     }
                     char[] volumeValue = volumeInput.toCharArray();
+
 
                     System.out.println("Inserisci la durata:");
                     int durata = scanner.nextInt();
@@ -35,7 +40,7 @@ public class Main {
                     elementi[i] = new Audio(durata, PlayAndVolume.volumeValue);
                 }
 
-
+                // CASO VIDEO
                 case "video" -> {
                     System.out.println("Inserisci il volume inserendo il carattere ! da una a 5 volte:");
                     String volumeVideoInput = scanner.nextLine();
@@ -62,6 +67,8 @@ public class Main {
                     elementi[i] = new Video(durataVideo, PlayAndVolume.volumeValue, Luminosità.luminositàValue);
                 }
 
+                 //CASO IMMAGINE
+
                 case "immagine" -> {
                     System.out.println("Inserisci l' asterisco inserendo il carattere * da una a 5 volte:");
                     String lumInput = scanner.nextLine();
@@ -82,6 +89,8 @@ public class Main {
 
             }
         }
+
+        // show dell array di elementi
 //        int elementoScelto;
 //        do {
 //            System.out.println("Quale elemento vuoi eseguire (1-5)? ");
@@ -90,6 +99,6 @@ public class Main {
 //                ElementoMultimedia elemento = elementi[elementoScelto - 1];
 //                elemento.view();
 
-                scanner.close();
-            }
-        }
+        scanner.close();
+    }
+}
