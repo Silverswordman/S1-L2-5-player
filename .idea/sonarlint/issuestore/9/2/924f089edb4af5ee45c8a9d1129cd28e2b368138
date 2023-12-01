@@ -1,41 +1,42 @@
 
-s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8ç”Ï¯Â1
-s	java:S127+"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8è”Ï¯Â1
-s	java:S1278"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8è”Ï¯Â1
-s	java:S127E"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8è”Ï¯Â1
-y	java:S127O"XRefactor the code in order to not assign to this loop counter from within the loop body.(¤÷¼×üÿÿÿÿ8è”Ï¯Â1
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8—ö‡°Â1
+s	java:S127,"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8˜ö‡°Â1
+s	java:S1279"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8˜ö‡°Â1
+s	java:S127F"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8˜ö‡°Â1
+s	java:S127P"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8˜ö‡°Â1
 7
-java:S1220""Move this file to a named package.8é”Ï¯Â1
+java:S1220""Move this file to a named package.8›ö‡°Â1
 \
-java:S1854"?Remove this useless assignment to local variable "volumeValue".(ýÎ¯£8à–Ï¯Â1
+java:S1854"?Remove this useless assignment to local variable "volumeValue".(ýÎ¯£8£ø‡°Â1
 f
-java:S1854."DRemove this useless assignment to local variable "volumeVideoValue".( ùó¾øÿÿÿÿ8à–Ï¯Â1
+java:S1854/"DRemove this useless assignment to local variable "volumeVideoValue".( ùó¾øÿÿÿÿ8£ø‡°Â1
 c
-java:S1854;"ARemove this useless assignment to local variable "lumVideoValue".(”¥”‚ýÿÿÿÿ8à–Ï¯Â1
+java:S1854<"ARemove this useless assignment to local variable "lumVideoValue".(”¥”‚ýÿÿÿÿ8£ø‡°Â1
 ^
-java:S1854H"<Remove this useless assignment to local variable "lumValue".(–£ªÞùÿÿÿÿ8à–Ï¯Â1
+java:S1854I"<Remove this useless assignment to local variable "lumValue".(–£ªÞùÿÿÿÿ8£ø‡°Â1
 \
-java:S1854":Remove this useless assignment to local variable "titolo".(¹¿´Òüÿÿÿÿ8à–Ï¯Â1
-G	java:S106"+Replace this use of System.out by a logger.(†Ñ…´8å–Ï¯Â1
-L	java:S106"+Replace this use of System.out by a logger.(¨È’¾ÿÿÿÿÿ8å–Ï¯Â1
+java:S1854":Remove this useless assignment to local variable "titolo".(¹¿´Òüÿÿÿÿ8£ø‡°Â1
+G	java:S106"+Replace this use of System.out by a logger.(†Ñ…´8¯ø‡°Â1
+L	java:S106"+Replace this use of System.out by a logger.(¨È’¾ÿÿÿÿÿ8°ø‡°Â1
 M
-java:S1481"+Remove this unused "titolo" local variable.(¹¿´Òüÿÿÿÿ8æ–Ï¯Â1
-L	java:S106"+Replace this use of System.out by a logger.(¸í¡‰ýÿÿÿÿ8è–Ï¯Â1
-L	java:S106"+Replace this use of System.out by a logger.(´»Ó©ÿÿÿÿÿ8é–Ï¯Â1
+java:S1481"+Remove this unused "titolo" local variable.(¹¿´Òüÿÿÿÿ8±ø‡°Â1
+L	java:S106"+Replace this use of System.out by a logger.(•Ê‚Æüÿÿÿÿ8²ø‡°Â1
+L	java:S106"+Replace this use of System.out by a logger.(´»Ó©ÿÿÿÿÿ8²ø‡°Â1
 M
-java:S1481"0Remove this unused "volumeValue" local variable.(ýÎ¯£8é–Ï¯Â1
-G	java:S106"+Replace this use of System.out by a logger.(°ÇË¿8é–Ï¯Â1
-L	java:S106'"+Replace this use of System.out by a logger.(³öÝÕþÿÿÿÿ8ê–Ï¯Â1
-L	java:S106*"+Replace this use of System.out by a logger.(´»Ó©ÿÿÿÿÿ8ê–Ï¯Â1
+java:S1481"0Remove this unused "volumeValue" local variable.(ýÎ¯£8³ø‡°Â1
+G	java:S106 "+Replace this use of System.out by a logger.(°ÇË¿8³ø‡°Â1
+L	java:S106("+Replace this use of System.out by a logger.(³öÝÕþÿÿÿÿ8´ø‡°Â1
+L	java:S106+"+Replace this use of System.out by a logger.(´»Ó©ÿÿÿÿÿ8´ø‡°Â1
 W
-java:S1481."5Remove this unused "volumeVideoValue" local variable.( ùó¾øÿÿÿÿ8ë–Ï¯Â1
-G	java:S1060"+Replace this use of System.out by a logger.(°ÇË¿8ë–Ï¯Â1
-G	java:S1064"+Replace this use of System.out by a logger.(äûŠŠ8ë–Ï¯Â1
-G	java:S1067"+Replace this use of System.out by a logger.(ë»š¢8ì–Ï¯Â1
+java:S1481/"5Remove this unused "volumeVideoValue" local variable.( ùó¾øÿÿÿÿ8´ø‡°Â1
+G	java:S1061"+Replace this use of System.out by a logger.(°ÇË¿8´ø‡°Â1
+G	java:S1065"+Replace this use of System.out by a logger.(äûŠŠ8µø‡°Â1
+G	java:S1068"+Replace this use of System.out by a logger.(ë»š¢8¶ø‡°Â1
 T
-java:S1481;"2Remove this unused "lumVideoValue" local variable.(”¥”‚ýÿÿÿÿ8ì–Ï¯Â1
-G	java:S106A"+Replace this use of System.out by a logger.(äûŠŠ8ì–Ï¯Â1
-G	java:S106D"+Replace this use of System.out by a logger.(ë»š¢8í–Ï¯Â1
+java:S1481<"2Remove this unused "lumVideoValue" local variable.(”¥”‚ýÿÿÿÿ8¶ø‡°Â1
+G	java:S106B"+Replace this use of System.out by a logger.(äûŠŠ8¶ø‡°Â1
+G	java:S106E"+Replace this use of System.out by a logger.(ë»š¢8·ø‡°Â1
 O
-java:S1481H"-Remove this unused "lumValue" local variable.(–£ªÞùÿÿÿÿ8í–Ï¯Â1
-L	java:S106N"+Replace this use of System.out by a logger.(²îƒûÿÿÿÿ8í–Ï¯Â1
+java:S1481I"-Remove this unused "lumValue" local variable.(–£ªÞùÿÿÿÿ8·ø‡°Â1
+L	java:S106O"+Replace this use of System.out by a logger.(²îƒûÿÿÿÿ8·ø‡°Â1
+X	java:S125U"<This block of commented-out lines of code should be removed.(Á·£è8¸ø‡°Â1

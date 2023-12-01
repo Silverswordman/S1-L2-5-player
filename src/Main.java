@@ -16,11 +16,12 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println("Cosa vuoi creare un video , un' immagine o un audio?");
             String tipo = scanner.nextLine().toLowerCase();
-            System.out.println("Inserisci il titolo dell'elemento " + (i + 1 ));
+            System.out.println("Inserisci il titolo dell'elemento " + (i + 1));
             String titolo = scanner.nextLine();
 
-            switch (tipo.toLowerCase() ) {
-                case "audio" -> {  System.out.println("Inserisci il volume da uno a 5 ! :");
+            switch (tipo.toLowerCase()) {
+                case "audio" -> {
+                    System.out.println("Inserisci il volume da uno a 5 ! :");
                     String volumeInput = scanner.nextLine();
                     if (volumeInput.length() > 5) {
                         System.out.println("Il volume deve avere al massimo 5 punti esclamativi.");
@@ -31,11 +32,11 @@ public class Main {
                     System.out.println("Inserisci la durata:");
                     int durata = scanner.nextInt();
                     scanner.nextLine();
-                    elementi[i] = new Audio(durata, PlayAndVolume.volumeValue);}
+                    elementi[i] = new Audio(durata, PlayAndVolume.volumeValue);
+                }
 
 
-
-                case "video"-> {
+                case "video" -> {
                     System.out.println("Inserisci il volume inserendo il carattere ! da una a 5 volte:");
                     String volumeVideoInput = scanner.nextLine();
                     if (volumeVideoInput.length() > 5) {
@@ -61,7 +62,7 @@ public class Main {
                     elementi[i] = new Video(durataVideo, PlayAndVolume.volumeValue, Luminosità.luminositàValue);
                 }
 
-                case "immagine"-> {
+                case "immagine" -> {
                     System.out.println("Inserisci l' asterisco inserendo il carattere * da una a 5 volte:");
                     String lumInput = scanner.nextLine();
                     if (lumInput.length() > 5) {
@@ -76,11 +77,19 @@ public class Main {
 
                 default -> {
                     System.out.println("Tipo non esistente");
-                    i--;}
+                    i--;
+                }
 
             }
         }
+//        int elementoScelto;
+//        do {
+//            System.out.println("Quale elemento vuoi eseguire (1-5)? ");
+//            elementoScelto = scanner.nextInt();
+//            if (elementoScelto >= 1 && elementoScelto <= 5) {
+//                ElementoMultimedia elemento = elementi[elementoScelto - 1];
+//                elemento.view();
 
-        scanner.close();
-    }
-}
+                scanner.close();
+            }
+        }
